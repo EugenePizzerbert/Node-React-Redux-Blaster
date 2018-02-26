@@ -6,7 +6,7 @@ const app = express(); //we call express() like a function as we might have mult
 //a route handler
 app.get('/', (req, res) => {
     //response as JSON
-    res.send({ hi: 'there' });
+    res.send({ bye: 'buddy' });
 });
 
 //Dynamical assign port Heroku. If runtime env config var not avail, use 5000 for local dev.  
