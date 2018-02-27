@@ -3,7 +3,7 @@ const express = require('express');
 
 const app = express(); //we call express() like a function as we might have multiple express servers in our application. 
 
-//a route handler
+//a test route handler
 app.get('/', (req, res) => {
     //response as JSON
     res.send({ bye: 'buddy' });
