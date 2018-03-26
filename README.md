@@ -9,3 +9,7 @@ Education project to learn Node, React, Stripe, Redux
 	https://github.com/csdear/Node-React-Redux-Blaster/commit/0f4696371fabc67286c68d33b6a38a89b343fab1
 
 -  3/22/2018 :  Implemented React Router and Redux Store.  Created some basic routes. Added basic boilerplate code for our future Redux store to track user's authorization state.  https://github.com/csdear/Node-React-Redux-Blaster/commit/8eefb1a4f532ac4494f03a1572c3d7fa6060b66c
+
+
+-  3/26/2018 :  Implemented Materialize for frontend/css.  Importing components, the header, i.e. using view partials. 
+https://github.com/csdear/Node-React-Redux-Blaster/commit/108a4324809db2c4f2945ffadb809c7fb5bb24e1
