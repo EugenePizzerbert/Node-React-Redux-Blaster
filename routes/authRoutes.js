@@ -10,12 +10,18 @@ module.exports = (app) => {
     );
 
     //Route for callback, Google response (with Code ID as guid )
-    app.get('/auth/google/callback', passport.authenticate('google'));
+    //redirect to /surveys after g authing.  
+    app.get('/auth/google/callback',
+    passport.authenticate('google'),
+    (req, res) => {
+        res.redirect('/surveys');
+    }    
+    );
 
     //Route to logout the user 
     app.get('/api/logout', (req, res) => {
         req.logout();
-        res.send(req.user);
+        res.redirect('/');
     });
 
     //Test Route, to verify User auth'd and returned.  
